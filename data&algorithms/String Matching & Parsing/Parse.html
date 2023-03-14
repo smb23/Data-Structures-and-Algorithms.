@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JSON parse()</h1>
+
+<p>JSON.parse() parses a string, written in JSON format, and returns a JavaScript object.</p>
+
+<p>The value of "firstName" is:</p>
+
+<p id="demo"></p>
+
+<script>
+var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+
+document.getElementById("demo").innerHTML = obj.firstName;
+</script>
+</body>
+</html>
